@@ -16,17 +16,12 @@ Estrutura de Dados
 
 
 Control “ 
-
- 
-
-dir 
-
-Cd ..  
-
-Cls  
-
-Cd  pasta 
-
-Gcc arquivo.extensao 
-
+Control d – muda nome de todas as vartiaveis 
+dir - visualiza as pastas
+Cd .\'pasta' - entra na pasta 
+Cls - clear terminal 
 Del <nomearquivo.extensao 
+em c++ (cpp)
+ctrl + k + c - comenta a area selecionada
+g++ .\'arquivo.cpp' -o roda --> compila o codigo
+.\roda.exe ---> roda o codigo
