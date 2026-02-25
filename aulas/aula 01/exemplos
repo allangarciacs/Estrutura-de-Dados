@@ -1,0 +1,49 @@
+#include <stdio.h> 
+
+#include <stdlib.h> 
+
+ 
+
+int main() { 
+
+ 
+
+    char nome[100]; 
+
+    int boulosAlimentar; 
+
+    int quantidadeInsulinaMaxima; 
+
+    int carboidrato; 
+
+     
+
+    int quantidadeMaximaCarboidrato; 
+
+    int quantidadeInsulina; 
+
+    int restanteInsulinaDia; 
+
+    int restanteCarboidratoDia; 
+
+ 
+
+    printf("ola, informe seus dados\n"); 
+
+ 
+
+    printf("nome: "); 
+
+    gets(nome); 
+
+    printf("boulos alimentar"); 
+
+    scanf("%d", &boulosAlimentar); 
+
+    printf("quantidade de insulina maxima"); 
+
+    scanf("%d", &quantidadeInsulinaMaxima); 
+
+    printf("quantidade de carboidrato"); 
+
+    scanf("%d", carboidrato); 
