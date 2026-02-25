@@ -1,0 +1,32 @@
+Estrutura de Dados
+  - Disciplina ou uma área da Ciência da Computação que estuda algoritmos para melhor gestão de memória
+  - Estrutura de Dados Físicas
+    - Variáveis - dependentes das linguagens de programação
+      - int do Java é diferente do int do Ciência 
+
+  - Estruturas de Dados Abstratas 
+    - Algoritmos de gestão de memória
+    - Estrutuas Lineares - valores (matriz e dimensão)
+      - Pilha (Stack);
+          Inserção, remoção, estaVazia, tamanho, localizar, topo
+      - Fila (Queue); 
+          Inserção, remoção, estaVazia, tamanho, localizar, primeiro, ultimo
+      - Lista (List);
+
+
+
+Control “ 
+
+ 
+
+dir 
+
+Cd ..  
+
+Cls  
+
+Cd  pasta 
+
+Gcc arquivo.extensao 
+
+Del <nomearquivo.extensao 
