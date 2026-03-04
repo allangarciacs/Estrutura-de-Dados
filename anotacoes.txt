@@ -14,6 +14,8 @@ Estrutura de Dados
       - Lista (List);
 
 
+python *tab
+
 
 Control “ 
 Control d – muda nome de todas as vartiaveis 
@@ -25,3 +27,83 @@ em c++ (cpp)
 ctrl + k + c - comenta a area selecionada
 g++ .\'arquivo.cpp' -o roda --> compila o codigo
 .\roda.exe ---> roda o codigo
+
+Estruturas de Dados
+    - Fíaicas: variáveis das linguagens de programação: int, float, string, vetores, matrizes, ...
+    - Abstratas: 
+        - Lista
+            - C++      - vector
+            - Java     - List, ArrayList, LinkedList
+            - C#       - List, ArrayList
+            - Python   - List
+        - Pilha
+        - Fila
+        - Árvore
+        - Grafo
+
+        - algoritmos de gestão de memória: guardar/armazenar e buscar/pesquisarda melhor forma possível (eficiência)
+            - operações clássicas:
+                - Inserir  
+                    - C++      - push_back()
+                    - Java     - add()
+                    - C#       - Add()
+                    - Python   - append()
+                - remover pela posição ou pelo elemento
+                    - C++      - pop_back() ou erase() 
+                    - Java     - remove()
+                    - C#       - Remove()
+                    - Python   - remove() 
+                - verificar temanho da Estrutura
+                    - C++      - size() 
+                    - Java     - size()
+                    - C#       - Count()
+                    - Python   - lenght()                   
+                - se esta vazia
+                    - se o tamanho for igual a zero
+                    - empty() ou isEmpty()
+                - localizar
+                    vetor = [5,9,7,2,5]
+                    TAM   = 5
+
+                    - C 
+                        numero = 5
+                        encontrado = false
+                        for (int i = 0; i < TAM; i++) {
+                            if (numero == vetor[i]) {
+                                encontrado = true;
+                                break;
+                            }
+                        }
+                        if (encontrado) {
+                           print("numero encontrado");
+                        } else {
+                            print("numero nao encontrado")};
+                        }
+                    
+                    - Python
+                        vetor = [5,9,7,2,5]
+                        numero = 5
+                        if numero in vetor;
+                            print("encontrado");
+                        else
+                            print("nao encontrado")
+
+                    - Java
+                        vetor = [5,9,7,2,5]
+                        numero = 5
+                        if (vetor.contains(numero)) {
+                            System.out.println("encontrado");
+                        } else { 
+                            System.out.println("nao encontrado");
+                        }
+                    
+                    - C#
+                        vetor = [5,9,7,2,5]
+                        numero = 5
+                        if (vetor.Contains(numero)) {
+                            Consule.write("encontrado");
+                        } else { 
+                            Console.write("nao encontrado");
+                        }
+
+
