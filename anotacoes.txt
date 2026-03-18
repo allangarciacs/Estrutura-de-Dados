@@ -16,6 +16,7 @@ Estrutura de Dados
 
 python *tab
 
+javac *.nomedoprograma -> compila programa java
 
 Control “ 
 Control d – muda nome de todas as vartiaveis 
@@ -108,9 +109,11 @@ Estruturas de Dados
 
 ------------------------------------------------------------------------------------------------------------
 
-reader writer 
-
-
+Ler arquivo
+Ler linha a linha
+    Splitar - dividir as categorias 
+    Inserir em objeto - colocar em classes
+    Inserir em lista
 
 
 
