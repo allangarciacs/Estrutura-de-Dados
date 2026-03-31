@@ -15,7 +15,7 @@ Diferenças entre vector, list, arraylist e linkedlist. Alem de dizer quando cad
 
 ---
 
-## **ArrayList 
+## **ArrayList**
 É uma lista baseada em **array dinâmico**, que aumenta conforme a necessidade.
 * Ela possui:
   - Acessa os elementos por índice rapidamente
