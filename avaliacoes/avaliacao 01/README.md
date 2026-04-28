@@ -1,6 +1,7 @@
 <pre>
 Proposta de Trabalho: Gestão Acadêmica
-Objetivo: Implementar um sistema que processe o histórico de ingressantes e gere relatórios estatísticos simples. Os dados devem ser carregados do arquivo alunos.csv.
+Objetivo: Implementar um sistema que processe o histórico de ingressantes e gere relatórios estatísticos simples. Os dados
+devem ser carregados do arquivo alunos.csv.
 </pre>
 
 Tarefas:
