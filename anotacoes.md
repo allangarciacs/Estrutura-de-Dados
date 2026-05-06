@@ -128,11 +128,16 @@ Off
 
   <img width="591" height="463" alt="image" src="https://github.com/user-attachments/assets/dd9d1326-8b67-435e-9d87-92e61349aecc" />
 
-  ### Recusão
-  <pre>
-  Eh quando uma funcao chama ela mesma para ser resolvida
-    
-  </pre>
+### Recursão
+<pre>
+Rescursão é uma técnica de repetição
+
+// inicializaçao da variavel de controle 
+// teste d parada
+// tranformaçao da variavel de controle
+
+  
+</pre>
 
   
 
