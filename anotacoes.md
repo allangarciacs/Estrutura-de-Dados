@@ -17,18 +17,27 @@
 ---
 ### Comandos 
 <pre>
-python *tab
-javac *.nomedoprograma -> compila programa java
-Control “ 
-Control d – muda nome de todas as vartiaveis 
-dir - visualiza as pastas
-Cd .\'pasta' - entra na pasta 
-Cls - clear terminal 
-Del <nomearquivo>.extensao 
-em c++ (cpp)
-ctrl + k + c - comenta a area selecionada
-g++ .\'arquivo.cpp' -o roda --> compila o codigo
-.\roda.exe ---> roda o codigo
+JAVA
+javac nomeDoArquivo.java        -> compila
+java nomeDoArquivo              -> roda
+
+C e C++
+gcc .\nomeDoArquivo.c -o roda   -> compila o código c
+g++ .\nomeDoArquivo.cpp -o roda -> compila o código c++
+.\roda.exe                      -> roda o código (c++ e c em win)
+.\roda                          -> roda o código c no linux
+  
+PYTHON
+python nomeDoArquivo.py         (no windows)
+python3 nomeDoArquivo.py        (no linux)
+
+VSCODE e TERMINAL
+Ctrl + d                 -> mudar nome de uma variável
+ctrl + k + c             -> comenta a area selecionada
+dir                      -> visualiza as pastas
+Cd .\nomeDaPasta         -> entra na pasta 
+Cls ou clear             -> limpa o terminal 
+Del <nomeArquivo>.(java , c , cpp , etc)
 </pre>
 ---
 ### Resumo
