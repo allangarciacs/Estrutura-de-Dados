@@ -35,8 +35,8 @@ VSCODE e TERMINAL
 Ctrl + Shift + ´                    -> abre o terminal
 Ctrl + d                            -> mudar nome de uma variável
 ctrl + k + c                        -> comenta a area selecionada
-dir                                 -> visualiza as pastas
-Cd .\nomeDaPasta                    -> entra na pasta 
+dir / ls                            -> visualiza as pastas
+cd nomeDaPasta                      -> entra na pasta 
 Cls ou clear                        -> limpa o terminal 
 </pre>
 ---
