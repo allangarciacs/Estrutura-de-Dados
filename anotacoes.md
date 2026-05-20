@@ -18,26 +18,26 @@
 ### Comandos 
 <pre>
 JAVA
-javac nomeDoArquivo.java        -> compila
-java nomeDoArquivo              -> roda
+javac nomeDoArquivo.java            -> compila
+java nomeDoArquivo                  -> roda
 
 C e C++
-gcc .\nomeDoArquivo.c -o roda   -> compila o código c
-g++ .\nomeDoArquivo.cpp -o roda -> compila o código c++
-.\roda.exe                      -> roda o código (c++ e c em win)
-.\roda                          -> roda o código c no linux
+gcc .\nomeDoArquivo.c -o roda       -> compila o código c
+g++ .\nomeDoArquivo.cpp -o roda     -> compila o código c++
+.\roda.exe                          -> roda o código (c++ e c em win)
+.\roda                              -> roda o código c no linux
   
 PYTHON
-python nomeDoArquivo.py         (no windows)
-python3 nomeDoArquivo.py        (no linux)
+python nomeDoArquivo.py             (no windows)
+python3 nomeDoArquivo.py            (no linux)
 
 VSCODE e TERMINAL
-Ctrl + d                 -> mudar nome de uma variável
-ctrl + k + c             -> comenta a area selecionada
-dir                      -> visualiza as pastas
-Cd .\nomeDaPasta         -> entra na pasta 
-Cls ou clear             -> limpa o terminal 
-Del <nomeArquivo>.(java , c , cpp , etc)
+Ctrl + Shift + ´                    -> abre o terminal
+Ctrl + d                            -> mudar nome de uma variável
+ctrl + k + c                        -> comenta a area selecionada
+dir                                 -> visualiza as pastas
+Cd .\nomeDaPasta                    -> entra na pasta 
+Cls ou clear                        -> limpa o terminal 
 </pre>
 ---
 ### Resumo
@@ -143,14 +143,44 @@ Rescursão é uma técnica de repetição
 
 // inicializaçao da variavel de controle 
 // teste d parada
-// tranformaçao da variavel de controle
-
-  
+// tranformaçao da variavel de controle  
 </pre>
 
+### Árvores
+<pre>
+Árvore = Estrutura de Dados abstrata
+  -> guarda e busca bem
+  -> usa-se quanda há muitos dados que são buscados com muita frequência (> 40.000)
+  -> genérica
+  -> binária: 1 nodo - com 2 filhos no 
+
+Conceitos
+  -> raiz: nó ou nodo de uma subárvore
+  -> folha: nó ou nodo sem filhos
+  -> percurso (baseados em recursão)
+     - RED                    (PESQUISA)
+     - ERD                    (EXIBIÇÃO)
+     - EDR                    (DESTRUIÇÃO DA ÁRVORE)
+
+        8
+      /   \
+     3     10
+    / \      \
+   1   6      14
+      / \     /
+     4   7   13
+
+RED (Raiz → Esquerda → Direita)         → if (arvore.contains(x)))  
+8, 3, 1, 6, 4, 7, 10, 14, 13            
   
+ERD (Esquerda → Raiz → Direita)         → for (Integer i : arvore) {
+1, 3, 4, 6, 7, 8, 10, 13, 14
+
+EDR (Esquerda → Direita → Raiz)
+1, 4, 7, 6, 3, 13, 14, 10, 8
+
+arvore.clear                 
 
 
-
-
+</pre>
 
