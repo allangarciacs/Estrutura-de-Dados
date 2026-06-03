@@ -181,6 +181,58 @@ EDR (Esquerda → Direita → Raiz)
 
 arvore.clear                 
 
+Árvores binárias 
+  - Pesquisa / Busca
+Usar equals() ao invés de Comparator
 
+  
 </pre>
+
+## Grafo
+<pre>
+Grafo = ED = Coleção
+  Roteamento = Percurso = Caminhamento
+    -> Track ou Route
+              Rodoviário        Informática
+REPRESENTAR { Equipamento     { Rede elétrica
+              Aeroviário        Rm
+              Ferroviário
+
+((((Lista) Pilha) Fila) Árvore) Grafo)
+Grafo 
+        a ----> b
+        ^      ^ \
+         \    /   \
+          \ /      \(b,C)
+           d -----> c
+            ^       |
+              \     |
+               \    (c,e)
+                 \  e
+
+CONCEITOS
+  - nó ou nodo, porém, na matemática, é chamado de vértice
+    .  v = {a,b,c,d,e}
+  - Arestra ou arco (linhas de ligação entre nós)
+    .  A = {a,b ; b,c ; c,e ; d,a ; d,b ; d,c ; e,d}
+  - Grau = Arestas que chegam e partem
+    . total
+    . incidência (chegada)
+    . partida
+  - Simetria
+    . Simétrico
+    . Assimétrico = DIGRAFO
+  - Represenação - Disco
+                 - RAM
+
+  Java
+  class Grafo {
+    int matrizADJ[][];
+    int qtdVertices;
+
+  public Grafo(int 
+
+  
+</pre>
+
 
