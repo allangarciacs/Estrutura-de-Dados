@@ -87,7 +87,7 @@ public class Funcoes {
             }
         }
     }
-        public void compararRepetidas(Scanner scanner, TreeSet<Figura> figurinhasDesejadas) {
+        public void compararRepetidas(Scanner scanner, TreeSet<Figura> figurinhasRepetidas) {
 
         System.out.print("Nome do arquivo de desejadas: ");
         String arquivoComparacao = scanner.nextLine();
